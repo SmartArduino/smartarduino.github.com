@@ -40,7 +40,7 @@ module Jekyll
           end
 
           if @img['src'] !~ /^https?:\/\//
-            @image_file = File.expand_path "../source" + @img['src'] , File.dirname(__FILE__)
+            @image_file = File.expand_path "../static" + @img['src'] , File.dirname(__FILE__)
         exif = EXIFR::JPEG::new(@image_file)
           if exif.exif?
               title =
@@ -65,3 +65,5 @@ module Jekyll
 end
 
 Liquid::Template.register_tag('img_with_exif', Jekyll::ImageWithExifTag)
+
+
