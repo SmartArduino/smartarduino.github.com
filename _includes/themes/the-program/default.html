@@ -48,6 +48,14 @@
 		<div class="unit-foot">
 			<div class="unit-inner unit-foot-inner">
 				<div class="misc vcard">
+					<h4>近期博文</h4>
+					<ul>
+						{% for post in site.posts limit:15 %}
+						<li class="post_title"><a href="{{post.url}}">{{post.title}}</a></li>
+						{% endfor %}
+					</ul>
+				</div>
+				<div class="misc vcard">
 					<h4>关于</h4>
 					<ul>
 						<li class="contact"><address><span class="author fn n">{{ site.author.name }}</span> - <span class="fn email">{{ site.author.email }}</span></address></li>
