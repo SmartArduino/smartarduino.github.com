@@ -49,21 +49,15 @@ module Jekyll
               exif.iso_speed_ratings, exif.exposure_time.to_i, exif.date_time_original
             @img['title'] = @img['alt'] = title
         end
+          "<img #{@img.collect {|k,v| "#{k}=\"#{v}\"" if v}.join(" ")}>"
+            <<-HTML
+              焦距#{exif.focal_length.to_i}mm F#{sprintf "%.1f", exif.f_number.to_f} ISO #{exif.iso_speed_ratings} #{exif.exposure_time.to_i} s #{exif.date_time_original}
+            HTML
           end
 
           super
         end
 
-        def render(context)
-        if @img
-          "<img #{@img.collect {|k,v| "#{k}=\"#{v}\"" if v}.join(" ")}>"
-            <<-HTML
-              焦距#{exif.focal_length.to_i}mm F#{sprintf "%.1f", exif.f_number.to_f} ISO #{exif.iso_speed_ratings} #{exif.exposure_time.to_i} s #{exif.date_time_original}
-            HTML
-          else
-            "Error processing input, expected syntax: {% img [class name(s)] [http[s]:/]/path/to/image [width [height]] [title text | \"title text\" [\"alt text\"]] %}"
-      end
-      end
     end
 end
 
