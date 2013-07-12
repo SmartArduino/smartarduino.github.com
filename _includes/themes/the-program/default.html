@@ -50,9 +50,8 @@
 				<div class="misc vcard">
 					<h4>文章分类</h4>
 					<ul>
-						{% for category in site.categories %}
-						<li><a href="/｛｛ category | first ｝｝.html">｛｛ category | first ｝｝(｛｛ category | last | size ｝｝)</a></li>
-						{% endfor %}
+						  {% assign categories_list = site.categories %}
+						  {% include JB/categories_list %}
 					</ul>
 				</div>
 				<div class="misc vcard">
