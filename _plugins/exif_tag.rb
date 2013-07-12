@@ -12,8 +12,6 @@ module Jekyll
       super
       if file.strip !~ /^https?:\/\//
       @image_file = File.expand_path "../" + file.strip, File.dirname(__FILE__)
-      else
-      @image_file = file.strip
       end
 
        def render(context)
