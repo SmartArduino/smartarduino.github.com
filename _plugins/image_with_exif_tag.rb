@@ -40,7 +40,7 @@ module Jekyll
           end
 
           if @img['src'] !~ /^https?:\/\//
-            @image_file = File.expand_path "../static" + @img['src'] , File.dirname(__FILE__)
+            @image_file = File.expand_path "../" + @img['src'] , File.dirname(__FILE__)
         exif = EXIFR::JPEG::new(@image_file)
           if exif.exif?
               title =
@@ -48,6 +48,9 @@ module Jekyll
               exif.focal_length.to_i, exif.f_number.to_f, exif.model,
               exif.iso_speed_ratings, exif.exposure_time.to_i, exif.date_time_original
             @img['title'] = @img['alt'] = title
+            <<-HTML
+              焦距#{exif.focal_length.to_i}mm F#{sprintf "%.1f", exif.f_number.to_f} ISO #{exif.iso_speed_ratings} #{exif.exposure_time.to_i} s #{exif.date_time_original}
+            HTML
         end
           end
 
