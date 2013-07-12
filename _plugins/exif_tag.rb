@@ -8,15 +8,12 @@ require 'exifr'
 
 module Jekyll
   class ExifTag < Liquid::Tag
-      @img=nil
       def initialize(tag_name, file, token)
-      attributes = ['src']
       super
-      @img = attributes 
-      if @img['src'] !~ /^https?:\/\//
-      @image_file = File.expand_path "../" + @img['src'], File.dirname(__FILE__)
+      if file.strip !~ /^https?:\/\//
+      @image_file = File.expand_path "../" + file.strip, File.dirname(__FILE__)
       else
-      @image_file = @img['src']
+      @image_file = file.strip
     end
 
     def render(context)
