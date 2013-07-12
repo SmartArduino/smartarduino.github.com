@@ -10,7 +10,7 @@ module Jekyll
   class ExifTag < Liquid::Tag
       def initialize(tag_name, file, token)
       super
-      @image_file = File.expand_path + file.strip , File.dirname(__FILE__)
+      @image_file = File.expand_path "./" + file.strip , File.dirname(__FILE__)
     end
 
     def render(context)
