@@ -14,15 +14,15 @@ module Jekyll
       @image_file = File.expand_path "../" + file.strip, File.dirname(__FILE__)
       else
       @image_file = file.strip
-    end
+      end
 
-    def render(context)
+       def render(context)
           exif = EXIFR::JPEG::new(@image_file)
           <<-HTML
     焦距 #{exif.focal_length.to_i} mm 光圈F#{sprintf "%.1f", exif.f_number.to_f} #{exif.model} ISO #{exif.iso_speed_ratings} 曝光时间#{exif.exposure_time.to_i}s
-    HTML
-        end
+          HTML
+       end
       end
-end
+   end
 
 Liquid::Template.register_tag('exif', Jekyll::ExifTag)
