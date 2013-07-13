@@ -6,5 +6,5 @@ group: navigation
 ---
 {% include JB/setup %}
 
-###朋友博客
+####朋友博客
 
