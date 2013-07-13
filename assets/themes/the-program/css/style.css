@@ -917,15 +917,15 @@ pre {
 }
 .body .unit-body {
   border-top: 1px solid rgba(255, 255, 255, 0.6);
-  padding: 26px;
-  width: 70%
+  padding: 22px;
+  width: 68%
 }
 .the-footer {
   background-color: #1a1a1a;
   background-color: rgba(21, 25, 25, 0.8);
   color: #fafafa;
   color: rgba(250, 250, 250, 0.8);
-  padding: 26px;
+  padding: 22px;
 }
 .the-footer a:link {
   color: #c26164;
