@@ -777,17 +777,17 @@ pre {
 .unit-article .comment a {
   border-bottom: 0;
   }
-  .unit-article {
-    border-top: 5px solid rgba(21, 25, 25, 0.8);
-   /*   padding-top: 1.625em;*/
-  position: relative;
-  }
-  .unit-foot {
+  .unit-article .unit-foot {
     border-top: 5px solid rgba(21, 25, 25, 0.8);
       padding-top: 1.625em;
   position: relative;
- /* float:right;*/
   }
+ /* .unit-foot {
+    border-top: 5px solid rgba(21, 25, 25, 0.8);
+      padding-top: 1.625em;
+  position: relative;
+  float:right;
+  }*/
   .unit-article .unit-foot nav ul {
     list-style: none;
     }
