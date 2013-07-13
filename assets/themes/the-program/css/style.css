@@ -403,7 +403,7 @@ No styleguide reference.
 body {
   font-family: consolas, monaco, monospace;
     font-size: 1em;
-      line-height: 1.625em;
+/*      line-height: 1.625em;*/
 }
 /*
 Font size setting
