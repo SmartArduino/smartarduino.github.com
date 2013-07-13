@@ -157,7 +157,7 @@ sup {
   font-size: 75%;
     line-height: 0;
       position: relative;
- /* vertical-align: baseline;*/
+  vertical-align: baseline;
   }
   sup {
     top: -0.5em;
@@ -403,7 +403,7 @@ No styleguide reference.
 body {
   font-family: consolas, monaco, monospace;
     font-size: 1em;
-/*      line-height: 1.625em;*/
+      line-height: 1.625em;
 }
 /*
 Font size setting
@@ -779,12 +779,12 @@ pre {
   }
   .unit-article {
     border-top: 5px solid rgba(21, 25, 25, 0.8);
-      padding-top: 1.625em;
+   /*   padding-top: 1.625em;*/
   position: relative;
   }
   .unit-foot {
     border-top: 5px solid rgba(21, 25, 25, 0.8);
-      padding-top: 1.625em;
+   /*   padding-top: 1.625em;*/
   position: relative;
   float:right;
   }
@@ -915,12 +915,7 @@ pre {
     line-height: 52px;
       padding-bottom: 26px;
 }
-.body {
-  border-top: 1px solid rgba(255, 255, 255, 0.6);
-    padding: 22px;
-     width: 67.5%
-    }
-.unit-body {
+.body .unit-body {
   border-top: 1px solid rgba(255, 255, 255, 0.6);
     padding: 22px;
      width: 67.5%
