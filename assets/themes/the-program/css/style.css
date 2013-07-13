@@ -987,6 +987,10 @@ pre {
   .the-header .unit-head .nav-global .logo a:hover {
     background-color: transparent;
   }
+  .the-footer {
+   position: relative;
+   width: 85%
+  }
 }
 /*
 	Not that old computer layout 
