@@ -777,10 +777,16 @@ pre {
 .unit-article .comment a {
   border-bottom: 0;
   }
-  .unit-article .unit-foot {
+  .unit-article {
     border-top: 5px solid rgba(21, 25, 25, 0.8);
       padding-top: 1.625em;
   position: relative;
+  }
+  .unit-foot {
+    border-top: 5px solid rgba(21, 25, 25, 0.8);
+      padding-top: 1.625em;
+  position: relative;
+  float:right;
   }
   .unit-article .unit-foot nav ul {
     list-style: none;
@@ -909,9 +915,13 @@ pre {
     line-height: 52px;
       padding-bottom: 26px;
 }
-.body .unit-body {
+.body {
   border-top: 1px solid rgba(255, 255, 255, 0.6);
-    padding: 26px;
+    padding: 22px;
+    }
+.unit-body {
+  border-top: 1px solid rgba(255, 255, 255, 0.6);
+    padding: 22px;
     }
     .the-footer {
       background-color: #1a1a1a;
