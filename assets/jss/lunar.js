@@ -1,3 +1,4 @@
+    //这个js脚本来源于 深山工作室 ，在网上找到，原始网址是：http://www.qwbm.com/new.asp?id=720，有小修改
     var sWeek = new Array("星期日", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六");
             var dNow = new Date();
       var CalendarData = new Array(100);
