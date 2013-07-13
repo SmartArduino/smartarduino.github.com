@@ -48,7 +48,7 @@ html {
   body {
     margin: 0;
       font-size: 1em;
-  line-height: 1.4;
+  /*line-height: 1.4;*/
     -webkit-tap-highlight-color: rgba(255, 0, 0, 0.62);
     }
     body,
