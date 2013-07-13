@@ -68,6 +68,6 @@
             document.getElementById('nowDateIs').innerHTML = svalue1
       document.getElementById('nowCnYearIs').innerHTML = svalue333 + sx22;
       };
-    document.write("<table border='0' cellspacing='0' width='155' height='60' cellpadding='0' style='font-size:13px;'>");
+    document.write("<table border='0' cellspacing='0' width='155' height='80' cellpadding='0' style='font-size:13px;'>");
             document.write("<tr><td align='center'><b><font color=#008040><span id='nowDateIs'></span></font><br/><font face='Arial'color=#FF8040><span id='nowCnYearIs'></span></font></td></tr></table>");
 showDate();
