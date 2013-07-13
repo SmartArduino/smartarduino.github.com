@@ -66,9 +66,10 @@
     var svalue333 = svalue33.substr(0, 2) + "(" + sx2 + ")" + svalue33.substr(2, 1);
     var adjchars = "     "
     var sx22 = "农历" + svalue3.substr(4, 6);
-            document.getElementById('nowDateIs').innerHTML = svalue1 + adjchars;
-      document.getElementById('nowCnYearIs').innerHTML = svalue333 + sx22 + adjchars;
+            document.getElementById('nowDateIs').innerHTML = svalue1
+      document.getElementById('nowCnYearIs').innerHTML = svalue333 + sx22;
+      document.getElementById('nowadjIs').innerHTML = adjchars + adjchars + adjchars + adjchars;
       };
     document.write("<table border='0' cellspacing='0' width='155' height='40' cellpadding='0' style='font-size:13px;'>");
-            document.write("<tr><td align='center'><b><font color=#008040><span></span><br/><span id='nowDateIs'></span></font><br/><font face='Arial'color=#FF8040><span id='nowCnYearIs'></span></font></td></tr></table>");
+            document.write("<tr><td align='center'><b><font color=#008040><span id='nowadjIs'></span><br/><span id='nowDateIs'></span></font><br/><font face='Arial'color=#FF8040><span id='nowCnYearIs'></span></font></td></tr></table>");
 showDate();
