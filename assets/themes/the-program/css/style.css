@@ -784,9 +784,9 @@ pre {
   }
   .unit-foot {
     border-top: 5px solid rgba(21, 25, 25, 0.8);
-   /*   padding-top: 1.625em;*/
+      padding-top: 1.625em;
   position: relative;
-  float:right;
+ /* float:right;*/
   }
   .unit-article .unit-foot nav ul {
     list-style: none;
@@ -918,7 +918,7 @@ pre {
 .body .unit-body {
   border-top: 1px solid rgba(255, 255, 255, 0.6);
     padding: 22px;
-/*     width: 67.5%*/
+     width: 67.5%;
     }
     .the-footer {
       background-color: #1a1a1a;
