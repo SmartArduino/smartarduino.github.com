@@ -735,6 +735,7 @@ pre {
  /* background-color: #fff04a;*/
     background: #50a0e4;
     color: #ffffff;
+    font-weight: bold;
   }
   .unit-article img {
     display: block;
