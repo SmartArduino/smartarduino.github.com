@@ -41,8 +41,8 @@ No styleguide reference.
 */
 div img {
 max-width:1366px;
-width:expression(document.body.clientWidth>600?"600px":"auto");
-overflow:auto;
+width:expression(document.bodyb.clientWidth>600?"600px":"auto");
+overflow:hidden;
 }
 
 html {
