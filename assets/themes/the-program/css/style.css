@@ -121,13 +121,14 @@ dfn {
   padding: 0;
   }
   ins {
-    background: #ff9;
+    /*background: #ff9;*/
+    background: #0078ff;
       color: #000;
   text-decoration: none;
   }
   mark {
-  /*  background: #ff0;*/
-      background: #0078ff;
+    background: #ff0;
+  /*    background: #0078ff;*/
       color: #000;
   font-style: italic;
     font-weight: bold;
