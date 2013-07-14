@@ -121,8 +121,8 @@ dfn {
   padding: 0;
   }
   ins {
-    /*background: #ff9;*/
-    background: #0078ff;
+    background: #ff9;
+    /*background: #0078ff;*/
       color: #000;
   text-decoration: none;
   }
@@ -732,7 +732,8 @@ pre {
   .unit-article li code {
     padding: 2px 5px;
       white-space: nowrap;
-  background-color: #fff04a;
+ /* background-color: #fff04a;*/
+    background: #0078ff;
   }
   .unit-article img {
     display: block;
