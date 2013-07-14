@@ -784,13 +784,16 @@ pre {
 .unit-article .comment a {
   border-bottom: 0;
   }
-  .unit-article .unit-foot {
+  .unit-article .unit-foot .unit-footb {
     border-top: 5px solid rgba(21, 25, 25, 0.8);
       padding-top: 1.625em;
   position: relative;
   }
   .unit-foot {
   width: 336px;
+  float: right;
+  }
+  .unit-footb {
   float: right;
   }
  /* .unit-foot {
