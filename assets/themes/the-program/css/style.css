@@ -136,8 +136,8 @@ dfn {
     code,
     kbd,
     samp {
-      font-family: monospace, serif;
-  _font-family: 'courier new', monospace;
+      font-family: 'Droid Sans Mono', 'DejaVu Sans Mono', 'Ubuntu Mono', Monaco, monospace, serif;
+  _font-family: 'courier new', 'Droid Sans Mono', 'DejaVu Sans Mono', 'Ubuntu Mono', Monaco, monospace;
     font-size: 1em;
     }
     /* Improve readability of pre-formatted text in all browsers */
@@ -406,7 +406,7 @@ Calculation should be done via http://j.mp/rNg5uA
 No styleguide reference.
 */
 body {
-  font-family: consolas, monaco, monospace;
+  font-family: 'Droid Sans Mono', 'DejaVu Sans Mono', 'Ubuntu Mono', consolas, monaco, monospace;
     font-size: 1em;
       line-height: 1.625em;
 }
@@ -423,7 +423,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: UbuntuMono-B, consolas, monaco, monospace;
+  font-family: 'Droid Sans Mono', 'DejaVu Sans Mono', UbuntuMono-B, consolas, monaco, monospace;
   }
   h1,
   .h1 {
@@ -584,7 +584,7 @@ pre {
     color: #f2f2f2;
       background-color: #393939;
   border: 1px solid #393939;
-    font-family: consolas, monaco, monospace;
+    font-family: 'Droid Sans Mono', 'DejaVu Sans Mono', consolas, monaco, monospace;
       margin-left: 0;
   margin-right: 0;
     padding: 1.625em;
