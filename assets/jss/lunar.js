@@ -72,5 +72,5 @@
       document.getElementById('nowadjIs').innerHTML = adjchars + adjchars + adjchars + adjchars;
       };
     document.write("<table border='0' cellspacing='0' width='155' height='40' cellpadding='0' style='font-size:13px;'>");
-            document.write("<tr><td align='center'><b><font color=#008040><span id='nowadjIs'></span><br/><span id='nowDateIs'></span></font><br/><font face='Arial'color=#FF8040><span id='nowCnYearIs'></span></font></td></tr></table>");
+            document.write("<tr><td align='center'><b><font color=#000000><span id='nowadjIs'></span><br/><span id='nowDateIs'></span></font><br/><font face='Arial'color=#495862><span id='nowCnYearIs'></span></font></td></tr></table>");
 showDate();
