@@ -8,4 +8,5 @@ group: navigation
 
 ####朋友博客
 [百度贴吧-TNT大人](http://hackyixia.diandian.com)
+[MDBBS-HOMEBOY](http://hi.baidu.com/homeboy)
 
