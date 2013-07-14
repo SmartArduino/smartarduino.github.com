@@ -1494,3 +1494,5 @@ hr {
     *display: inline;
       float: right;
 }
+
+.clear {clear: both;}

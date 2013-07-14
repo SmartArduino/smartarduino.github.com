@@ -30,7 +30,9 @@
   <li class="tag"><a href="/tags.html">标签</a></li>
   <li class="friends"><a href="/friends.html">友情链接</a></li>
   <li class="sites"><a href="/links.html">站点辑录</a></li>
-  <div style="float:right"><script type="text/javascript" src="http://realasking.github.io/assets/jss/lunar.js"></script></div>
+  <div style="float:right"><script type="text/javascript" src="http://realasking.github.io/assets/jss/lunar.js"></script>
+  <div class="clear"></div>
+  </div>
   </ul>
   </nav>
   </div><!-- unit-inner -->
@@ -50,6 +52,7 @@
   <div class="unit-inner unit-foot-inner">
   <div class="misc vcard">
   <h4>文章分类</h4>
+  <div class="clear"></div>
   </div>
   <ul class="tab_box">
   {% assign categories_list = site.categories %}
@@ -62,6 +65,7 @@
   <li class="post_title"><a href="{{post.url}}">{{post.title}}</a></li>
   {% endfor %}
   </ul>
+  <div class="clear"></div>
   </div>
   <div class="misc vcard">
   <h4>关于</h4>
@@ -70,6 +74,7 @@
   <li class="github"><a href="http://github.com/{{ site.author.github }}/" rel="me">github.com/{{ site.author.github }}</a></li>
   <li class="rss"><a href="http://feeds.feedburner.com/{{ site.author.feedname }}">Subscribe to RSS Feed</a></li>
   </ul>
+  <div class="clear"></div>
   </div><!-- misc -->
   <div class="misc vcard">
   <table border="0">
@@ -86,6 +91,7 @@
   </td>
   </tr>
   </table>
+  <div class="clear"></div>
   </div>
   <p class="licence">
   Theme: <a href="http://layouts-the.me">the_minimum</a> based on <a href="http://jekyllbootstrap.com/">Jekyll-bootstrap</a>.<br>
