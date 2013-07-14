@@ -65,7 +65,7 @@
             var sx2 = sx.substr(dzString.indexOf(svalue3.substr(1, 1)), 1);
       var svalue33 = svalue3.substr(0, 3)
     var svalue333 = svalue33.substr(0, 2) + "(" + sx2 + ")" + svalue33.substr(2, 1);
-    var adjchars = "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp"
+    var adjchars = "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp"
     var sx22 = "农历" + svalue3.substr(4, 6);
             document.getElementById('nowDateIs').innerHTML = svalue1
       document.getElementById('nowCnYearIs').innerHTML = svalue333 + sx22;
