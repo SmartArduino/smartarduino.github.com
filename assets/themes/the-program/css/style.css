@@ -39,12 +39,12 @@ Base from [HTML5 Boilerplate](http://j.mp/rP0wmY)
 
 No styleguide reference.
 */
-div img {
-max-width:1366px;
-width:40%
-width:expression(document.bodyb.clientWidth>600?"600px":"auto");
-overflow:auto;
-}
+image{ /* The code you were using */
+     min-height: 100%; 
+         max-width: 1366px; 
+         width: 40%; 
+        height: auto;
+  }
 
 html {
   font-size: 100%;
