@@ -126,7 +126,8 @@ dfn {
   text-decoration: none;
   }
   mark {
-    background: #ff0;
+  /*  background: #ff0;*/
+      background: #0078ff;
       color: #000;
   font-style: italic;
     font-weight: bold;
