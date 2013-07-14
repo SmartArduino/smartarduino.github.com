@@ -39,6 +39,13 @@ Base from [HTML5 Boilerplate](http://j.mp/rP0wmY)
 
 No styleguide reference.
 */
+div img {
+max-width:1366px;
+width:600px;
+width:expression(document.body.clientWidth>600?"600px":"auto");
+overflow:auto;
+}
+
 html {
   font-size: 100%;
     overflow-y: scroll;
