@@ -785,6 +785,7 @@ pre {
   position: relative;
   }
   .unit-foot {
+  width: 336px;
   float: right;
   }
  /* .unit-foot {
@@ -923,8 +924,14 @@ pre {
 .body .unit-body {
   border-top: 1px solid rgba(255, 255, 255, 0.6);
     padding: 22px;
-     width: 67.5%;
+    margin-left: -336px; 
+    float: left; 
+    width: 100%;
+/*     width: 67.5%;*/
     }
+ .bodyb  .unit-bodyb {
+    margin-left: 336px;
+ }
     .the-footer {
       background-color: #1a1a1a;
   background-color: rgba(21, 25, 25, 0.8);
