@@ -924,13 +924,13 @@ pre {
 .body .unit-body {
   border-top: 1px solid rgba(255, 255, 255, 0.6);
     padding: 22px;
-    margin-left: -672px; 
+    margin-left: -520px; 
     float: left; 
     width: 100%;
 /*     width: 67.5%;*/
     }
  .bodyb  .unit-bodyb {
-    margin-left: 672px;
+    margin-left: 520px;
  }
     .the-footer {
       background-color: #1a1a1a;
