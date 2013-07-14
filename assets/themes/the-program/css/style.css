@@ -1538,7 +1538,7 @@ hr {
     .cse .gsc-control-cse,
     .gsc-control-cse {
       background-color: transparent;
-  border: 1px solid #ffffff;
+  border: 1px solid transparent;
   }
   .cse .gsc-control-cse:after,
   .gsc-control-cse:after {
