@@ -32,7 +32,7 @@ group: navigation
 [双飞燕鼠标linux驱动](https://github.com/Marisa-Chan/init-gmouse)
 
 ####学习资料
-
+[markdown语法](http://daringfireball.net/projects/markdown/syntax)
 
 ####摄影
 
