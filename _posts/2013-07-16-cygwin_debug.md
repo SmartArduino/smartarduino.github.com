@@ -26,14 +26,14 @@ tags: [vi, 软件, Cygwin, 技术, 科研]
 ####vim输入中文串行
 
 解决：修改`.vimrc`，加入以下内容：
-<% highlight vim linenos=table  %>
+{% highlight vim linenos=table  %}
    if &term != "cygwin"
    set ruler
    else
    set noruler
 
    endif
-<% endhighlight %>
+{% endhighlight %}
 
 嗯，这条好像是来自紫霞论坛
 
@@ -41,21 +41,21 @@ tags: [vi, 软件, Cygwin, 技术, 科研]
 
 解决：修改`.inputrc`，解除以下几行注释：
 
-<% highlight bash linenos=table  %>
+{% highlight bash linenos=table  %}
     #set meta-flag on
     #set convert-meta off
     #set input-meta on
     #set output-meta on
-<% endhighlight %>
+{% endhighlight %}
 
 ####vim退格键未定义
 
 解决：修改`.vimrc`，加入：
 
-<% highlight vim linenos=table  %>
+{% highlight vim linenos=table  %}
     set nocp
     set backspace=start,indent,eol
-<% endhighlight %>
+{% endhighlight %}
       
 ####在Cygwin中不能复制和粘贴
 

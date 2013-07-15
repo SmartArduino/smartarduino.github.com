@@ -15,7 +15,7 @@ tags: [编程, fortran, C]
 
 `cf_inter.f90`
 
-<% highlight fortran linenos=table %>
+{% highlight fortran linenos=table %}
  module cf_inter
    !fortran输出彩色文字的接口模块，用于连接c语言子程序
    !程序编制：realasking
@@ -37,13 +37,13 @@ tags: [编程, fortran, C]
      end subroutine cline
    end interface
  end module cf_inter
-<% endhighlight %>
+{% endhighlight %}
 
 ###输出彩色文字子程序
 
 `colorfortran_.c`
 
-<% highlight C linenos=table %>
+{% highlight C linenos=table %}
 #include<stdlib.h>
 #include<stdio.h>
 /*
@@ -68,13 +68,13 @@ int colorfortran_(int *color_int,int *bk_color_int,char *str,int *len_str,int *c
  printf("\033[0m");
  return(1);
 }
-<% endhighlight %>
+{% endhighlight %}
 
 ###应用实例
 
 `ex.f90`
 
-<% highlight fortran linenos=table %>
+{% highlight fortran linenos=table %}
 program ex
 use cf_inter
 !Fortran输出彩色文字示例程序
@@ -107,18 +107,18 @@ enddo
 change_line=1
 call cline(change_line)
 end program ex
-<% endhighlight %>
+{% endhighlight %}
 
 ###例程运行方法
 
 假定使用intel的编译器套件，依次执行以下命令：
 
-<% highlight bash linenos=table %>
+{% highlight bash linenos=table %}
 $icc -c *.c
 $ifort -c *.f90 
 $ifort -o test *.o
 $./test
-<% endhighlight %>
+{% endhighlight %}
 
 ###适用环境
 

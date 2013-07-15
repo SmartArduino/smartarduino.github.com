@@ -35,20 +35,20 @@ tags: [编程, fortran, C, gsl, 科研]
 
 gsl:
 
-<% highlight bash linenos=table %>
+{% highlight bash linenos=table %}
 $./configure --prefix=/usr/local --libdir=/usr/local/lib64 --enable-static --enable-shared
 $make 
 $make check
 $sudo make install
-<% endhighlight %>
+{% endhighlight %}
 
 fgsl:
 
-<% highlight bash linenos=table %>
+{% highlight bash linenos=table %}
 $./configure --prefix /usr --f90 ifort --gsl /usr/local
 $make 
 $sudo make install
-<% endhighlight %>
+{% endhighlight %}
 
 最后建立的环境为：
 
