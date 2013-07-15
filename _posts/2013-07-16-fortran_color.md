@@ -54,7 +54,8 @@ tags: [编程, fortran, C]
 新地址：  http://realasking.github.io
 */
 
-int colorfortran_(int *color_int,int *bk_color_int,char *str,int *len_str,int *char_len,int l)
+int colorfortran_(int *color_int,int *bk_color_int,char *str,
+int *len_str,int *char_len,int l)
 {
  int i,j,k;
  char str_out[(*char_len)+1];
