@@ -43,7 +43,7 @@ tags: [编程, fortran, C]
 
 `colorfortran_.c`
 
-{% highlight C linenos=table %}
+{% highlight c linenos=table %}
 #include<stdlib.h>
 #include<stdio.h>
 /*
