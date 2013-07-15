@@ -55,7 +55,35 @@
   <div class="unit-foot">
   <div class="unit-inner unit-foot-inner">
   <div class="misc vcard">
-  {% include 3rd/CSE %}
+   <SCRIPT language=javascript>
+function g(formname){
+var url = "http://www.baidu.com/baidu";
+if (formname.s[1].checked) {
+formname.ct.value = "2097152";
+}
+else {
+formname.ct.value = "0";
+}
+formname.action = url;
+return true;
+}
+   </SCRIPT>
+   <form name="f1" onsubmit="return g(this)">
+   <table bgcolor="transparent" style="font-size:9pt;">
+   <tr height="60"><td valign="top"><img src="http://img.baidu.com/img/logo-137px.gif" border="0" alt="baidu"></td>
+   <td>
+   <input name=word size="30" maxlength="100">
+   <input type="submit" value="百度搜索"><br>
+   <input name=tn type=hidden value="bds">
+   <input name=cl type=hidden value="3">
+   <input name=ct type=hidden>
+   <input name=si type=hidden value="realasking.github.io">
+   <input name=ie type=hidden value=utf-8>
+   <input name=s type=radio> 互联网
+   <input name=s type=radio checked> realasking.github.io
+   </td></tr></table>
+   </form>
+   {% include 3rd/CSE %}
   </div>
   <div class="misc vcard">
   <h4>文章分类</h4>
