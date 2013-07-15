@@ -141,7 +141,7 @@ dfn {
       font-family: 'Droid Sans Mono', 'DejaVu Sans Mono', 'Ubuntu Mono', Monaco, monospace, serif;
   _font-family: 'courier new', 'Droid Sans Mono', 'DejaVu Sans Mono', 'Ubuntu Mono', Monaco, monospace;
     font-size: 1em;
-    border-radius: 3px;
+    border-radius: 6px;
     opacity: 0.8;
     filter: "alpha(opacity=80)";
     }
