@@ -11,3 +11,4 @@ group: navigation
 [MDBBS-HOMEBOY](http://hi.baidu.com/homeboy)
 [linux人-grassofhust](http://grassofhust.github.io)
 [百度贴吧-8pm](http://xrefactor.com)
+[百度贴吧-荆棘的思念](http://bramblex.pw)
