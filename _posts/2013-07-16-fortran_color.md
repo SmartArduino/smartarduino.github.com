@@ -47,9 +47,9 @@ tags: [编程, fortran, C]
 #include<stdlib.h>
 #include<stdio.h>
 /*
-用于输出彩色文字的c语言子程序                                                                  
-程序编制：realasking                                                                                                         
-编制时间：2011-04-19                                                                                                         
+用于输出彩色文字的c语言子程序
+程序编制：realasking 
+编制时间：2011-04-19  
 个人博客：http://hi.baidu.com/realasking
 新地址：  http://realasking.github.io
 */
