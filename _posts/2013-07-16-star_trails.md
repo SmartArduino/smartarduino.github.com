@@ -56,7 +56,7 @@ $for i in *.tif;do a=`echo $i|cut -d"." -f1`;convert $i ${a}.jpg;done
 先用`rawtherapee`打开图像，`色温`设置为`3000K`，`动态色彩`设置为`10`，勾选`找回暗部`，适当`提高对比度`，
 然后调用`gimp`，选择天空部分，使用`小波降噪插件`降噪，降噪之后，执行一次`膨胀`，再进行一次降噪，然后再执行两次膨胀，最后保存图片。
 
-###使用到的软件
+####使用到的软件
 
 [hugin](http://hugin.sourceforge.net)
 [imagemagick](http://www.imagemagick.org)
