@@ -300,10 +300,9 @@ account default : 帐户名（比如abcde）
  (全文完)
 
 附一篇转载的东西，关于添加发送收条的脚本：
-{% highlight bash linenos=table %}
+<pre>
 {{ include 3rd/scripts_in_article/mail_notify.sh }}
-{% endhighlight %}
-
+</pre>
 参考资料：
 [1]http://downloads.sourceforge.net/fdm/fdm-1.6.tar.gz
 [2]http://fdm.sourceforge.net/
