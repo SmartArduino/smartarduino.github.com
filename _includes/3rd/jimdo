@@ -1,0 +1,10 @@
+<script type="text/javascript">
+//<![CDATA[
+function googlesearch () {
+var wq=document.getElementsByName("wq")[0].value;
+var link="http://www.google.com/search?domains=realasking.github.io&sitesearch=realasking.github.io&q="+wq;window.open(link); }
+//]]>
+</script>
+<form>
+    <input type="text" name="wq" /><input type="submit" onclick="javascript:googlesearch()" value="Google搜索" />
+</form>
