@@ -145,7 +145,7 @@ set sort_aux=reverse-last-date-sent
 set pager_stop #这几行是邮件显示的方式，忘了从哪里抄过来的了
 set fast_reply
 set pager_index_lines=10
-set index_format="| %4C | %Z | %{%b %d} | %-15.15L | %s" 
+set index_format="| %4C | %Z | %{{"{%b"}} %d} | %-15.15L | %s" 
 set folder_format="| %2C | %t %N | %8s | %d | %f" 
 #以下一行，用以让mutt显示回执相关的文件头，因为mutt默认是不支持邮件回执的
 #，所以它会隐藏这些信息，unignore的作用就是打开邮件头中被隐藏的相应的字段
