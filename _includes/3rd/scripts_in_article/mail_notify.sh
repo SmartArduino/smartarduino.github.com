@@ -13,7 +13,8 @@ formail | grep -v '^$' | grep -v ">From " > $FILE
 #REFCAT=`cat $FILE| formail -R References: |formail -x References:`
 #REFCAT2=`cat $FILE| formail -R Message-ID: |formail -x Message-ID:`
 #REFNAME=${REFCAT}${REFCAT2}
-NOTIFY_TO=`cat $FILE | formail -R Return-Receipt-To: Disposition-Notification-To: |formail -R X-Confirm-Reading-To: Disposition-Notification-To: | formail -x Disposition-Notification-To:`
+NOTIFY_TO=`cat $FILE | formail -R Return-Receipt-To: Disposition-Notification-To: \
+|formail -R X-Confirm-Reading-To: Disposition-Notification-To: | formail -x Disposition-Notification-To:`
 if [ -n "$NOTIFY_TO" ] ; then
 	   echo "正在向 $NOTIFY_TO 发送已读回执"
 	    MESSAGE=/tmp/mutt_notify_message.$$.$USER
@@ -39,7 +40,8 @@ if [ -n "$NOTIFY_TO" ] ; then
 	    #REFNAME=`mutt "my_hdr References:$REFERENCES"`
            # echo "已经在 $DATE_LOCALE 被 $USER 打开和阅读。" >> $MESSAGE
             echo "已经在 $DATE_LOCALE 被打开和阅读。" >> $MESSAGE
-            cat $MESSAGE | mutt -e "unmy_hdr Disposition-Notification-To:; my_hdr References:$REFERENCES" -s "已读:$SUBJECT" "$NOTIFY_TO"
+            cat $MESSAGE | mutt -e "unmy_hdr Disposition-Notification-To:; my_hdr References:$REFERENCES" \
+-s "已读:$SUBJECT" "$NOTIFY_TO"
             rm -f $MESSAGE
     	   else
                echo "No notification needed"
