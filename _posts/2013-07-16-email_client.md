@@ -359,7 +359,7 @@ auth plain
 需要结合crontab命令即可。
  (全文完)
 
-附一篇转载的东西，关于添加发送收条的脚本：
+###附一篇转载，关于发送收条
 {% highlight bash linenos=table %}
 {% include 3rd/scripts_in_article/mail_notify.sh %}
 {% endhighlight %}
