@@ -48,11 +48,13 @@ code {
    max-width: 100%;
    height: auto;
    width: auto\9; /* ie8 */
+   overflow: auto;
    }
 pre {
    max-width: 100%;
    height: auto;
    width: auto\9; /* ie8 */
+   overflow: auto;
    }
 html {
   font-size: 100%;
