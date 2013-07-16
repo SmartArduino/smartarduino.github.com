@@ -301,7 +301,7 @@ account default : 帐户名（比如abcde）
 
 附一篇转载的东西，关于添加发送收条的脚本：
 {% highlight bash linenos=table %}
-{% include 3rd/scripts_in_article/mail_notify.sh %}
+{{ include 3rd/scripts_in_article/mail_notify.sh }}
 {% endhighlight %}
 
 参考资料：
