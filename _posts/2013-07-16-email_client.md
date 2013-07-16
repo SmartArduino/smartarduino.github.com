@@ -347,13 +347,13 @@ account default : 帐户名（比如abcde）
  (全文完)
 
 附一篇转载的东西，关于添加发送收条的脚本：
-<pre>
-{{ include 3rd/scripts_in_article/mail_notify.sh }}
-</pre>
+{% highlight bash linenos=table %}
+{% include 3rd/scripts_in_article/mail_notify.sh %}
+{% endhighlight %}
 参考资料：
-[1]http://downloads.sourceforge.net/fdm/fdm-1.6.tar.gz
-[2]http://fdm.sourceforge.net/
-[3]http://www.kreny.com/docs/mutt.htm
-[4]http://hi.baidu.com/darkblueriver/blog/item/4368f50f10f3452e6059f350.html
-[5]http://www.mutt.org/#doc
-[6]http://www.mail-archive.com/mutt-dev@mutt.org/msg02399.html
+[fdm下载](http://downloads.sourceforge.net/fdm/fdm-1.6.tar.gz)
+[fdm网站](http://fdm.sourceforge.net)
+[mutt文档](http://www.kreny.com/docs/mutt.htm)
+[一则博文](http://hi.baidu.com/darkblueriver/blog/item/4368f50f10f3452e6059f350.html)
+[mutt文档2](http://www.mutt.org/#doc)
+[关于mutt](http://www.mail-archive.com/mutt-dev@mutt.org/msg02399.html)
