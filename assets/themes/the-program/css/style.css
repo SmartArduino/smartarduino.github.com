@@ -56,8 +56,8 @@ pre {
    }
 html {
   font-size: 100%;
-/*    overflow-y: scroll;*/
-  overflow: auto;
+    overflow-y: scroll;
+/*  overflow: auto;*/
       -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   }
