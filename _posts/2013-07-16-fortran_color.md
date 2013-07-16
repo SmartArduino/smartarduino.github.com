@@ -2,7 +2,7 @@
 layout: post
 title: "让fortran在终端下输出彩色文字"
 description: "一个fortran和C语言混合编程实例"
-category: "程序设计"
+category: "程序开发"
 tags: [编程, fortran, C]
 ---
 {% include JB/setup %}

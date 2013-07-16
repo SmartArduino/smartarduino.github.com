@@ -2,7 +2,7 @@
 layout: post
 title: "fortran调用gsl的环境的建立"
 description: "个人笔记，gsl库的使用"
-category: "程序设计"
+category: "程序开发"
 tags: [编程, fortran, C, gsl, 科研]
 ---
 {% include JB/setup %}
