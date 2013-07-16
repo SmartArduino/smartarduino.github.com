@@ -39,7 +39,7 @@ Base from [HTML5 Boilerplate](http://j.mp/rP0wmY)
 
 No styleguide reference.
 */
-img {
+img pre code {
    max-width: 100%;
    height: auto;
    width: auto\9; /* ie8 */
