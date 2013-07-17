@@ -12,3 +12,4 @@ group: navigation
 [linux人-grassofhust](http://grassofhust.github.io)
 [百度贴吧-8pm](http://xrefactor.com)
 [百度贴吧-荆棘的思念](http://bramblex.pw)
+[百度贴吧-吔许丶结束](http://www.stywolf.tk)
