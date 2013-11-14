@@ -13,3 +13,4 @@ group: navigation
 [百度贴吧-8pm](http://xrefactor.com)
 [百度贴吧-荆棘的思念](http://bramblex.pw)
 [百度贴吧-吔许丶结束](http://www.stywolf.tk)
+[百度贴吧-xw_y_am](http://blog.xwyam.info)
