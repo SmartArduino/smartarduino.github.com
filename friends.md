@@ -14,3 +14,4 @@ group: navigation
 [百度贴吧-荆棘的思念](http://bramblex.pw)
 [百度贴吧-吔许丶结束](http://www.stywolf.tk)
 [百度贴吧-xw_y_am](http://blog.xwyam.info)
+[百度贴吧-悔恨的阿毛](http://http://blog.gg-workshop.com)
