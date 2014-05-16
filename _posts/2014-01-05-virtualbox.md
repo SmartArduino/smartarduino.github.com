@@ -42,7 +42,6 @@ Virtualbox虚拟机好用、简单，但是完成安装后的默认设置的性�
 安装那个`vboxaddition`的iso，要在windows`安全模式`下，并且要选`D3D`组件
 
 
-
 ###启用硬件加速
 
 不开启`启用PAE/NX`，因为我的host系统是64位的，而我分配给XP的内存也未超出4GB

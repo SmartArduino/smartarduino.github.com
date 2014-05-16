@@ -39,3 +39,4 @@ composite -geometry +"$x"+"$y" tmp_bottom.jpg tmp.jpg tmp.jpg
 rm tmp_bottom.jpg mask.png
 {% endhighlight %}
 
+
