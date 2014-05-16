@@ -1,9 +1,3 @@
-[submodule "realasking"]
-	path = realasking
-	url = https://github.com/realasking/realasking.github.com.git
-[submodule "master"]
-	path = master
-	url = https://github.com/realasking/realasking.github.com.git
 [submodule "realasking.github.com"]
 	path = realasking.github.com
 	url = https://github.com/realasking/realasking.github.com.git
